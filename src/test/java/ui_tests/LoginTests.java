@@ -12,7 +12,7 @@ public class LoginTests extends ApplicationManager {
     public void loginPositiveTest(){
         User user = User.builder()
                 .email("bolik@gmail.com")
-                .password("Bolik1245!")
+                .password("Bolik12345!")
                 .build();
         HomePage homePage = new HomePage(getDriver());
         homePage.clickBtnLogin();
